@@ -9,13 +9,6 @@ private:
     vector<int>rank;
 public:
 
-/**
- * rank array element  0 0 0 0 0 0
- *  index              0 1 2 3 4 5 
- * 
- * parent array element  0 1 2 3 4 5
- *  index                0 1 2 3 4 5
- */
     DisjointSet(int n){
         this->n = n;
         parent.resize(n);
